@@ -59,5 +59,5 @@ Guía rápida para noobs:
 La ruta final debe de ser C:\Xampp\htdocs\worlds
 * Abrimos nuestro navegador favorito y accedemos a la [página](http://localhost/worlds/)
 
-Nota para noobs: siempre que queramos acceder a la web XAMPP tendrá que estar en ejecución, o todo lo relacionado con twitch dejará de funcionar.
+Nota para noobs: siempre que queramos acceder a la web XAMPP tendrá que estar en ejecución.
 
