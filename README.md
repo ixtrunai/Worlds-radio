@@ -1,5 +1,5 @@
 # Demo
-https://ixtrunai.github.io/Worlds-radio/worlds/
+https://ixtrunai.github.io/Worlds-radio
 
 # Worlds-radio
 Web pensada para poder ver los worlds y la "radio" de ibai al mismo tiempo. El stream de ibai se colocaría encima de la cam de un jugador, de forma que no moleste.<br><br>
@@ -8,6 +8,7 @@ La web permite:
 * Ocultar el chat de twitch.
 * Visualizar el stream de twitch (y ocultarlo manteniendo el audio)
 * Modo a pantalla completa.
+* Cambiar el stream de youtube
 
 
 La web esta adaptada para funcionar correctamente en las siguientes resoluciones:
@@ -24,16 +25,8 @@ Ejemplo de visualización a pantalla completa con chat
 Los controles se ven así. Ese cuadro es visible al entrar a la página. Si entramos al cuadro con el raton y salimos desaparecerá. Volverá a aparecer si pasamos el ratón sobre esa zona.
 ![Controles](https://i.imgur.com/TdQRuTa.png)
 
-# Configuración necesaria
-Tendrás que poner el id del stream de youtube que quieras ver. Esto se hace en **index.html**<br>
-Por ejemplo para el stream: https://www.youtube.com/watch?v=5qap5aO4i9A , tendríamos el siguiente código:
-<br>
-```
-<iframe id="youtube" allowfullscreen="true" width="420" height="315" src="https://www.youtube.com/embed/5qap5aO4i9A?autoplay=1&mute=1"></iframe>
-```
 
-
-# Otras configuraciones  (opcionales)
+# Configuraciones  (opcionales)
 En el archivo **index.html** podemos definir de que canal queremos el **chat de twitch** (ibai por defecto)<br>
 ```
 <iframe id="twitch-chat" frameborder="500px" scrolling="yes" src="https://www.twitch.tv/embed/ibai/chat?darkpopout&parent=localhost" height="100%" width="20%"></iframe>
