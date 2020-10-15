@@ -8,14 +8,14 @@ $(window).resize(function() {
 	windowResize();
 });
 
-//Cambiar v�deo youtube
+//Cambiar vídeo youtube
 function setYTID() {
-	let id = prompt("Introduce la url del v�deo a reproducir", "https://www.youtube.com/watch?v=5qap5aO4i9A");
+	let id = prompt("Introduce la url del vídeo a reproducir", "https://www.youtube.com/watch?v=5qap5aO4i9A");
 	id = id.substring(id.indexOf("v=")+2, id.indexOf("v=")+13);
 	document.getElementById("youtube").src = `https://www.youtube.com/embed/${id}?autoplay=1&mute=1`;
 }
 
-//Recolocar stream de twitch segun resolucion y situacion
+//Recolocar stream de twitch segun resolución y situación
 function windowResize(){
 	if ( screen.width <= 1366 ){
 		if(document.fullscreen){
