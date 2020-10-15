@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<title>WORLDS</title>
+		<link rel="stylesheet" href="src/estilos.css">
+	</head>
+	
+	<body>
+		<!--BOTONES-->
+		<div id="botones">
+			<center>Controles<br>
+			<img id="fscreen" title="Entrar en modo de pantalla completa" onclick="openFullscreen()" src="images/fullscreen.png" width="32px"/>
+			<img id="chatbtn" title="Mostrar/ocultar chat" onclick="toggleChat()" src="images/chat.png" width="32px"/>
+			<img id="twitchbtn" title="Mostrar/ocultar stream twitch (el audio se mantiene de fondo)" onclick="toggleStream()" src="images/twitch.png" width="32px"/></center>
+		</div>
+	
+		<!--ESTO ES EL STREAM DE YOUTUBE-->
+		<iframe id="youtube" allowfullscreen="true" width="420" height="315" src="https://www.youtube.com/embed/9qGo4ACFt20?autoplay=1&mute=1"></iframe>
+		
+		<!--ESTO ES EL STREAM DE TWITCH-->
+		<div id="twitch-embed"></div>
+		
+		<!--ESTO ES EL CHAT DE TWITCH-->
+		<iframe id="twitch-chat" frameborder="500px" scrolling="yes" src="https://www.twitch.tv/embed/ibai/chat?darkpopout&parent=localhost" height="100%" width="20%"></iframe>
+		
+		<!--SCRIPTS NECESARIOS PARA STREAM DE TWITCH Y MANEJO DE LA PÁGINA-->
+		<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+		<script src="https://embed.twitch.tv/embed/v1.js"></script>
+		<script src="src/codigo.js"></script>
+	</body>
+</html>
