@@ -260,4 +260,3 @@ function nofs_nochat_768(){
 }
 
 
-
