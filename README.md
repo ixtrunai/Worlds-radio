@@ -3,6 +3,7 @@ Web pensada para poder ver los worlds y la "radio" de ibai al mismo tiempo. El s
 La web permite:
 * Visualizar y chatear en el chat de twitch de ibai.
 * Ocultar el chat de twitch.
+* Visualizar el stream de twitch (y ocultarlo manteniendo el audio)
 * Modo a pantalla completa.
 
 
