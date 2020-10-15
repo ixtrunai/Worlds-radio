@@ -1,4 +1,4 @@
-new Twitch.Embed("twitch-embed", {
+﻿new Twitch.Embed("twitch-embed", {
 	channel: "ibai",  //introduce aqui el canal que quieres
 	layout: "video"
 });
@@ -8,6 +8,12 @@ $(window).resize(function() {
 	windowResize();
 });
 
+//Cambiar vídeo youtube
+function setYTID() {
+	let id = prompt("Introduce la url del vídeo a reproducir", "https://www.youtube.com/watch?v=5qap5aO4i9A");
+	id = id.substring(id.indexOf("v=")+2, id.indexOf("v=")+13);
+	document.getElementById("youtube").src = `https://www.youtube.com/embed/${id}?autoplay=1&mute=1`;
+}
 
 //Recolocar stream de twitch segun resolucion y situacion
 function windowResize(){
