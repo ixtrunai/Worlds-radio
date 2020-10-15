@@ -30,7 +30,7 @@ Por ejemplo para el stream: https://www.youtube.com/watch?v=5qap5aO4i9A , tendr√
 ```
 
 
-# Otras configuraci√≥nes  (opcionales)
+# Otras configuraciones  (opcionales)
 En el archivo **index.html** podemos definir de que canal queremos el **chat de twitch** (ibai por defecto)<br>
 ```
 <iframe id="twitch-chat" frameborder="500px" scrolling="yes" src="https://www.twitch.tv/embed/ibai/chat?darkpopout&parent=localhost" height="100%" width="20%"></iframe>
